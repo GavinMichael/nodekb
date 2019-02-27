@@ -104,7 +104,7 @@ app.use('/articles', articles);
 app.use('/users', users);
 
 // Start Server
-var port = process.env.PORT || 3000;
-app.listen(process.env.PORT, function(){
-  console.log('Server started on port 3000...');
+var port = process.env.PORT || 5000;
+app.listen(port, function(){
+  console.log('Server started...');
 });
