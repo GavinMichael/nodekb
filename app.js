@@ -104,6 +104,6 @@ app.use('/articles', articles);
 app.use('/users', users);
 
 // Start Server
-server.listen(process.env.PORT, function() {
+app.listen(process.env.PORT, function() {
     console.log('Listening on port %d', server_port);
 });
